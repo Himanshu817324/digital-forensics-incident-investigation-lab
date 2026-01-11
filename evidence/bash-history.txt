@@ -1,0 +1,425 @@
+    1  shutdown
+    2  sudo apt update && sudo apt full-upgrade -y
+    3  sudo reboot
+    4  ip z
+    5  ip a
+    6  systemctl
+    7  NetworkManager
+    8  sudo systemctl start NetworkManager
+    9  NetworkManager
+   10  dpkg reconfigure wireshark-common
+   11  dpkg-reconfigure wireshark-common
+   12  sudo dpkg-reconfigure wireshark-common
+   13  sudo usermod -aG wireshark $USER
+   14  nmap --version
+   15  msfconsole
+   16  burpsuite
+   17  wireshark
+   18  docker --version
+   19  python3 --version
+   20  node --version
+   21  sudo apt autoremove -y
+   22  sudo apt autoclean
+   23  clear
+   24  ^[[200~sudo apt install -y \\nautopsy sleuthkit volatility \\nwireshark tshark tcpdump \\nzeek suricata snort \\nyara clamav \\nfail2ban auditd \\nnetworkminer~
+   25  apt install -y \\nautopsy sleuthkit volatility \\nwireshark tshark tcpdump \\nzeek suricata snort \\nyara clamav \\nfail2ban auditd \\nnetworkminer~
+   26  sudo apt install -y \\nautopsy sleuthkit volatility \\nwireshark tshark tcpdump \\nzeek suricata snort \\nyara clamav \\nfail2ban auditd \\nnetworkminer~
+   27  ls
+   28  cd ..
+   29  cd /root
+   30  sudo cd /root
+   31  ls
+   32  cd /
+   33  cd /root
+   34  scp ~/Downloads/splunk-10.0.2-e2d18b4767e9-linux-amd64.deb splunk@10.0.2.15: /home/splunk/
+   35  scp ~/Downloads/splunk-10.0.2-e2d18b4767e9-linux-amd64.deb splunk@10.0.2.15:/home/splunk/
+   36  scp ~/Downloads/splunk-10.0.2-e2d18b4767e9-linux-amd64.deb splunk@10.0.2.15: /home/himanshu/
+   37  scp ~/Downloads/splunk-10.0.2-e2d18b4767e9-linux-amd64.deb splunk@10.0.2.15: /home/Ubuntu/
+   38  scp ~/Downloads/splunk-10.0.2-e2d18b4767e9-linux-amd64.deb splunk@10.0.2.15: /home/kali/
+   39  scp ~/Downloads/splunk-10.0.2-e2d18b4767e9-linux-amd64.deb splunk@10.0.2.15: /home/root/
+   40  scp ~/Downloads/splunk-10.0.2-e2d18b4767e9-linux-amd64.deb root@10.0.2.15:/root/
+   41  scp ~/Downloads/splunk-10.0.2-e2d18b4767e9-linux-amd64.deb root@10.0.2.15: /root/
+   42  ssh himanshu@10.0.2.15
+   43  ssh Ubuntu@10.0.2.15
+   44  scp ~/Downloads/splunk-10.0.2-e2d18b4767e9-linux-amd64.deb himanshu@10.0.2.15: /home/himanshu/
+   45  password
+   46  scp ~/Downloads/splunk-10.0.2-e2d18b4767e9-linux-amd64.deb himanshu@10.0.2.15: /home/himanshu/
+   47  scp ~/Downloads/splunk-10.0.2-e2d18b4767e9-linux-amd64.deb himanshu@10.0.2.15:/home/himanshu/
+   48  reset
+   49  ssh himanshu@10.0.2.15
+   50  wget -O splunkforwarder-10.0.2-e2d18b4767e9-linux-arm64.deb "https://download.splunk.com/products/universalforwarder/releases/10.0.2/linux/splunkforwarder-10.0.2-e2d18b4767e9-linux-arm64.deb"
+   51  sudo dpkg -i splunkforwarder-10.0.2-e2d18b4767e9-linux-arm64.deb
+   52  sudo apt --fix-broken install -y
+   53  sudo dpkg -i splunkforwarder-10.0.2-e2d18b4767e9-linux-arm64.deb
+   54  rm -rf splunkforwarder-10.0.2-e2d18b4767e9-linux-arm64.deb
+   55  ls
+   56  sudo dpkg -i splunk
+   57  wget -O splunkforwarder-10.0.2-e2d18b4767e9-linux-amd64.deb "https://download.splunk.com/products/universalforwarder/releases/10.0.2/linux/splunkforwarder-10.0.2-e2d18b4767e9-linux-amd64.deb"
+   58  ls
+   59  sudo dpkg -i splunkforwarder-10.0.2-e2d18b4767e9-linux-amd64.deb
+   60  clear
+   61  sudo /opt/splunkforwarder/bin/splunk add forward-server 10.0.2.15:9997
+   62  sudo /opt/splunkforwarder/bin/splunk start --accept-license
+   63  sudo /opt/splunkforwarder/bin/splunk add forward-server 10.0.2.15:9997
+   64  sudo /opt/splunkforwarder/bin/splunk list forward-server
+   65  sudo /opt/splunkforwarder/bin/splunk add monitor /var/log/auth.log
+   66  sudo /opt/splunkforwarder/bin/splunk add monitor /var/log/kern.log
+   67  sudo /opt/splunkforwarder/bin/splunk add monitor /var/log/syslog
+   68  sudo /opt/splunkforwarder/bin/splunk restart
+   69  sudo /opt/splunkforwarder/bin/splunk list monitor
+   70  exit
+   71  ssh root@localhost
+   72  sudo apt update
+   73  sudo apt install -y openssh-server
+   74  sudo systemctl start ssh
+   75  ssh root@localhost
+   76  ssh himanshulocalhost
+   77  ssh himanshu@localhost
+   78  sudo i
+   79  sudo -i
+   80  sudo su
+   81  exit
+   82  ssh himanshu@localhost
+   83  exit
+   84  virtualbox
+   85  virtualbox
+   86  ls ~/VirtualBox\ VMs
+   87  ls ~/VirtualBox\ VMs/Ubuntu
+   88  VBoxManage showmediuminfo ~/VirtualBox\ VMs/Ubuntu/Ubuntu.vdi
+   89  VBoxManage showmediuminfo ~/VirtualBox\ VMs/Ubuntu/Ubuntu.vdi \\n--resize 40960
+   90  VBoxManage modifymediuminfo ~/VirtualBox\ VMs/Ubuntu/Ubuntu.vdi \\n--resize 40960
+   91  VBoxManage modifymedium ~/VirtualBox\ VMs/Ubuntu/Ubuntu.vdi \\n--resize 40960
+   92  VBoxManage modifymedium disk /home/himanshu/VirtualBox\ VMs/Ubuntu/Ubuntu.vdi \\n--resize 40960
+   93  clear
+   94  VBoxManage modifymedium disk \\n/home/himanshu/VirtualBox\ VMs/Ubuntu/Ubuntu.vdi \\n--resize 40960
+   95  df -h
+   96  virtualbox
+   97  virtualbox
+   98  lsblk
+   99  df -h
+  100  sudo du -xh / --max-depth=1 | sort -h
+  101  sudo du -xh /var | sort -h
+  102  sudo /opt/splunk/bin/splunk stop
+  103  sudo journalctl --vacum-size=200M
+  104  sudo rm -rf /var/log/*.gz
+  105  sudo du -xh /var | sort -h
+  106  sudo rm -rf /var/log/*.[0-9]
+  107  df -h
+  108  sudo journalctl --vacum-size=200M
+  109  sudo journalctl --disk-usage
+  110  sudo journalctl --vacum-time=2d
+  111  sudo rm -rf /opt/splunk/var/log/splunk/*
+  112  sudo rm -rf /opt/splunk/var/spool/splunk/*
+  113  sudo rm -rf /opt/splunk/var/run/splunk/*
+  114  df -h
+  115  docker system df
+  116  sudo docker system df
+  117  sudo du -xh /var/lib/snapd | sort -h
+  118  sudo snap list
+  119  pwd
+  120  ls
+  121  rm -r splunk-10.0.2-e2d18b4767e9-linux-amd64.deb 
+  122  rm -r splunkforwarder-10.0.2-e2d18b4767e9-linux-amd64.deb
+  123  ls
+  124  cd Downloads
+  125  ls
+  126  rm -r splunk-10.0.2-e2d18b4767e9-linux-amd64.deb
+  127  cd ..
+  128  rm -r VirtualBox\ VMs
+  129  df -h
+  130  virtual
+  131  virtualbox
+  132  reboot
+  133  sudo du -xh / --max-depth=1 | sort -h
+  134  sudo du -xh /home --max-depth=1 | sort -h
+  135  sudo du -xh /home/himanshu --max-depth=1 | sort -h
+  136  sudo du -xh /home/himanshu/VirtualBox\ VMs --max-depth=1 | sort -h
+  137  pwd
+  138  cd VirtualBox\ VMs
+  139  rm -rf Windows
+  140  ls
+  141  sudo du -xh / --max-depth=1 | sort -h
+  142  VirtualBox
+  143  df -h
+  144  sudo rm -rf /opt/splunk
+  145  sudo rm -rf /var/log/splunk*
+  146  sudo rm -rf /var/run/splunk*
+  147  sudo apt purge -y virtualbox*
+  148  df -h
+  149  sudo find / -name "*.vdi" -o -name "*.vmdk"
+  150  df -h
+  151  sudo find / -name "*.vdi" -o -name "*.vmdk" 2>/dev/null
+  152  df -h
+  153  sudo rm -rf /var/log/*
+  154  sudo rm -rf /var/log
+  155  sudo chmod 755 /var/log
+  156  sudo rm -rf /var/log/journal/*
+  157  sudo mkdir -p /var/log/journal
+  158  sudo systemctl restart systemd-journald
+  159  sudo rm -rf /temp/*
+  160  sudo rm -rf /var/temp/*
+  161  sudo rm -rf /var/cache/*
+  162  sudo systemctl stop snapd
+  163  sudo apt purge -y snapd
+  164  sudo rm -rf /var/lib/snapd
+  165  sudo rm -rf ~/snap
+  166  sudo systemctl stop docker
+  167  sudo apt purge -y docker docker.io
+  168  sudo apt autoremove -y
+  169  sudo apt autoclean
+  170  sudo apt clean
+  171  docker-compose containerd runc
+  172  sudo rm -rf /var/lib/docker
+  173  ddf -h
+  174  df -h
+  175  sudo du -xh / --max-depth=1 | sort -h
+  176  sudo du -xh /var --max-depth=1 | sort -h
+  177  sudo rm -rf /var/log/*
+  178  sudo rm -rf /var/cache/*
+  179  sudo rm -rf /var/log/ /var/cache/apt
+  180  sudo du -xh /var --max-depth=1 | sort -h
+  181  df -h
+  182  sudo du -xh /root --max-depth=1 | sort -h
+  183  sudo rm -rf /root/VirtualBox VMs
+  184  sudo du -xh /root --max-depth=1 | sort -h
+  185  sudo rm -rf /root/*
+  186  sudo du -xh /root --max-depth=1 | sort -h
+  187  sudo rm -rf "/root/VirtualBox VMs"
+  188  sudo du -xh /root --max-depth=1 | sort -h
+  189  df -h
+  190  sudo du -xh / --max-depth=1 | sort -h
+  191  sudo du -xh /home --max-depth=1 | sort -h
+  192  sudo du -xh /home/himanshu --max-depth=1 | sort -h
+  193  sudo du -xh /home/himanshu/.local --max-depth=1 | sort -h
+  194  sudo du -xh /home/himanshu/.local/share --max-depth=1 | sort -h
+  195  rm -rf ~/.local/share/Trash/*
+  196  sudo du -xh /home/himanshu/.local/share/Trash --max-depth=1 | sort -h
+  197  sudo du -xh /home/himanshu/.local/share/Trash/files --max-depth=1 | sort -h
+  198  rm -rf ~/.local/share/Trash/*
+  199  sudo du -xh /home/himanshu/.local/share/Trash --max-depth=1 | sort -h
+  200  sudo du -xh /home/himanshu/.local/share --max-depth=1 | sort -h
+  201  df -h
+  202  sudo du -xh / --max-depth=1 | sort -h
+  203  clear
+  204  virtualbox
+  205  sudo apt update
+  206  apt
+  207  sudo apt full-upgrade -y
+  208  sudo mkdir -p /var/log
+  209  sudo mkdir -p /var/log/apt
+  210  sudo touch /var/log/dpkg.log
+  211  sudo chmod 755 /var/log /var/log/apt
+  212  sudo apt update
+  213  sudo apt full-upgrade -y
+  214  virtualbox
+  215  pwd
+  216  ls virtualbox
+  217  which virtualbox
+  218  cd /usr/bin
+  219  ls
+  220  rm -rf virtualbox
+  221  sudp rm -rf virtualbox
+  222  sudo rm -rf virtualbox
+  223  cd ..
+  224  virtualbox
+  225  clear
+  226  virtualbox
+  227  sudo apt autoremove -y
+  228  virtualbox
+  229  clear
+  230  virtualbox
+  231  VirtualBox
+  232  dh -h
+  233  df -h
+  234  cd /tor-browser/Browser/~
+  235  cd ~/tor-browser/Browser/~
+  236  cd ~/tor-browser/Browser/
+  237  ls
+  238  cd Downloads
+  239  ls
+  240  dpkg -i tor-browser-linux-x86_64-15.0.3.tar.xz
+  241  sudo dpkg -i tor-browser-linux-x86_64-15.0.3.tar.xz
+  242  tar -xf tor-browser-linux-x86_64-15.0.3.tar.xz
+  243  ls
+  244  cd tor-browser
+  245  ls
+  246  ./start-tor-browser.desktop --register-app
+  247  ls
+  248  cd ..
+  249  ls
+  250  cd boot
+  251  ls
+  252  rfkill list
+  253  sudo systemctl restart NetworkManager
+  254  ip a
+  255  sudo apt update
+  256  sudo nano /etc/apt/sources.list
+  257  ip a
+  258  apt update
+  259  sudo apt update
+  260  sudo apt full-upgrade -y
+  261  sudo apt install -y firmware-linux firmware-linux-nonfree \\nfirmware-realtek firmware-iwlwifi firmware-atheros
+  262  sudo apt autoremove -y
+  263  sudo apt autoclean -y
+  264  iw dev
+  265  nmap -sS -sV -O http://fakebank.thm
+  266  nmap -sS -sV -O 10.49.138.13
+  267  nmap -sS -sV -O 65.1.30.2
+  268  nmap -sS -sV -O 8.8.8.8
+  269  nmap -sS -sV -O 192.168.1.1
+  270  nmap -sS -sV -O 10.10.100.254
+  271  nmap -sS -sV -O 240.0.0.0
+  272  nmap -sS -sV -O 169.254.169.254
+  273  clear
+  274  nmap -sS -sV -O 201.231.58.5
+  275  nmap -sS -sV -O 201.231.58.5 >> scan-result.txt
+  276  dirb http://fakebank.thm
+  277  sudo apt autoremove -y
+  278  touch scan-result.txt
+  279  pwd
+  280  nmap -sS -sV -O 201.231.58.5 >> scan-result.txt
+  281  nmap -sS -sV -O 201.231.58.5
+  282  ip a
+  283  cd /home/himanshu/Desktop
+  284  git clone https://github.com/Himanshu817324/vulnerability-assesment-and-ethical-hacking.git
+  285  ls
+  286  cd vulnerability-assesment-and-ethical-hacking
+  287  ls
+  288  mkdir
+  289  mkdir screenshots
+  290  ls
+  291  cd screenshots
+  292  ls
+  293  git add .
+  294  git status
+  295  git commit -m "added work proof(screenshots) in the /screenshots folder"
+  296  git config --global user.email "himanshupandey9378@gmail.com"
+  297  git config --global user.name "Himanshu Pandey"
+  298  git commit -m "added work proof(screenshots) in the /screenshots folder"
+  299  git push -U origin main
+  300  git push -u origin main
+  301  ssh-keygen -t ed25519 -C "himanshupandey9378@gmail.com"
+  302  cd /
+  303  touch .ssh/id_ed25519.pub
+  304  mkdir .ssh
+  305  sudo mkdir .ssh
+  306  cd .
+  307  cd .ssh
+  308  touch id_ed25519.pub
+  309  sudo touch id_ed25519.pub
+  310  ssh-keygen -t ed25519 -C "himanshupandey9378@gmail.com"
+  311  sudo ssh-keygen -t ed25519 -C "himanshupandey9378@gmail.com"
+  312  la
+  313  ls
+  314  nano id_ed25519.pub
+  315  touch id_ed25519.pub
+  316  cd ..
+  317  ls
+  318  cd .ssh
+  319  pwd
+  320  clear
+  321  cat id_ed25519.pub
+  322  cd ..
+  323  cat /.ssh/id_ed25519.pub
+  324  sudo ssh-keygen -t ed25519 -C "himanshupandey9378@gmail.com"
+  325  cd /.ssh
+  326  rm id_ed25519.pub
+  327  sudo rm id_ed25519.pub
+  328  cd ..
+  329  sudo ssh-keygen -t ed25519 -C "himanshupandey9378@gmail.com"
+  330  cat /.ssh/id_ed25519.pub
+  331  ls /.ssh/
+  332  cd /.ssh
+  333  ls
+  334  cd ..
+  335  sudo ssh-keygen -t ed25519 -C "himanshupandey9378@gmail.com"
+  336  cd ..
+  337  pwd
+  338  cd ..
+  339  pwd
+  340  ls
+  341  cd /home/himanshu/Desktop
+  342  ls
+  343  cd vulnerability-assesment-and-ethical-hacking
+  344  ls
+  345  git pull
+  346  ls
+  347  cd scripts
+  348  ls
+  349  chmod +x exploit-validation.sh
+  350  ls
+  351  ./exploit-validation.sh
+  352  clear
+  353  git status
+  354  git add .
+  355  git commit -m "executable validation.sh and its image proof"
+  356  git push origin main
+  357  git status
+  358  git add .
+  359  git status
+  360  git add
+  361  git add .
+  362  git add
+  363  git status
+  364  git pull
+  365  python3 exploit-simulation.py
+  366  cd ..
+  367  git pull
+  368  rm screenshots/sqlmap-validation.png
+  369  ls
+  370  git pull
+  371  python3 scripts/exploit-simulation.py
+  372  git status
+  373  nmap -sS -sV 192.168.1.34 -oN kali-scan.txt
+  374  nmap -sS -sV -p 80 localhost
+  375  nmap -sS -sV -p 80 localhost -oN dvwa-scan.txt
+  376  sudo apt install apache2 mariadb-server php php-mysqli git -y
+  377  clear
+  378  sudo systemctl start apache2
+  379  sudo systemctl start mariadb
+  380  sudo systemctl enable mariadb
+  381  sudo mysql
+  382  sudo systemctl restart mariadb
+  383  sudo systemctl restart apache2
+  384  mysql -u dvwa -p
+  385  cd /var/www/html
+  386  sudo git clone https://github.com/digininja/DVWA.git
+  387  sudo chown -R www-data:www-data DVWA
+  388  sudo chmod -R 755  DVWA
+  389  cd DVWA/config
+  390  sudo cp config.inc.php.dist config.inc.php
+  391  sudo nano config.inc.php
+  392  sudo systemctl restart apache2
+  393  sudo systemctl status apache2
+  394  sudo ss -tulnp | grep apache
+  395  cd ..
+  396  ls -l
+  397  sudo apt install libapache2-mod-php php-cli
+  398  sudo a2enmod php.*
+  399  sudo a2enmod php*
+  400  sudo systemctl restart apache2
+  401  nano info.php
+  402  sudo nano info.php
+  403  cd /
+  404  ls
+  405  sudo chown -R www-data:www-data /var/www/htmlDVWA
+  406  sudo chown -R www-data:www-data /var/www/html/DVWA
+  407  sudo chmod -R 755 /var/www/html/DVWA
+  408  sudo nano /var/www/html/DVWA/config.inc.php
+  409  cd /var/www/html/DVWA/config
+  410  sudo nano config.inc.php
+  411  cd ../../../../..
+  412  pwd
+  413  ls
+  414  sudo nano /var/www/html/DVWA/config
+  415  sudo nano /var/www/html/DVWA/config/config.inc.php
+  416  sudo systemctl restart apache2
+  417  sudo systemctl restart mariadb
+  418  sudo apt update
+  419  msfconsole
+  420  cd /
+  421  clear
+  422  sudo cat /var/log/auth.log
+  423  sudo cat /var/log/auth.log > /home/himanshu/Desktop/digital-forensics-incident-investigation-lab/evidence/linux-auth.log
+  424  history
+  425  sudo history > /home/himanshu/Desktop/digital-forensics-incident-investigation-lab/evidence/bash-history.txt

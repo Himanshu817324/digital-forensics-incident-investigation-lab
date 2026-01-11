@@ -1,0 +1,7 @@
+Netid State     Recv-Q Send-Q                           Local Address:Port                Peer Address:PortProcess                                 
+udp   ESTAB     0      0                           192.168.1.34%wlan0:68                   192.168.1.1:67                                          
+udp   UNCONN    0      0            [fe80::c7ad:c786:1daa:dc9e]%wlan0:546                         [::]:*                                           
+tcp   LISTEN    0      80                                   127.0.0.1:3306                     0.0.0.0:*                                           
+tcp   ESTAB     0      0                                 192.168.1.34:39242              34.107.243.93:443  users:(("firefox-esr",pid=3965,fd=85)) 
+tcp   ESTAB     0      0                                 192.168.1.34:47934              140.82.114.25:443  users:(("firefox-esr",pid=3965,fd=194))
+tcp   TIME-WAIT 0      0      [2406:b400:66:19e9:5dd9:3334:cba3:e19b]:54732 [2404:6800:4002:821::200a]:443                                         

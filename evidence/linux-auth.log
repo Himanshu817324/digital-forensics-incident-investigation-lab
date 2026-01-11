@@ -1,0 +1,554 @@
+2026-01-09T13:15:01.487898+05:30 kali CRON[8923]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-09T13:15:01.491948+05:30 kali CRON[8923]: pam_unix(cron:session): session closed for user root
+2026-01-09T13:16:05.423129+05:30 kali xfce4-screensaver-dialog: gkr-pam: unlocked login keyring
+2026-01-09T13:16:05.423903+05:30 kali xfce4-screensaver-dialog: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+2026-01-09T13:17:01.500771+05:30 kali CRON[9960]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-09T13:17:01.522643+05:30 kali CRON[9960]: pam_unix(cron:session): session closed for user root
+2026-01-09T13:18:50.807173+05:30 kali systemd-logind[731]: The system will power off now!
+2026-01-09T13:18:50.807535+05:30 kali systemd-logind[731]: System is powering down.
+2026-01-09T13:18:50.813793+05:30 kali ssh-agent[1196]: exiting on signal 15
+2026-01-09T13:18:50.820757+05:30 kali polkitd[727]: Unregistered Authentication Agent for unix-session:2 (system bus name :1.48, object path /org/mate/PolicyKit1/AuthenticationAgent, locale en_IN) (disconnected from bus)
+2026-01-10T13:40:08.757668+05:30 kali systemd-logind[727]: New seat seat0.
+2026-01-10T13:40:08.757676+05:30 kali systemd-logind[727]: Watching system buttons on /dev/input/event2 (Power Button)
+2026-01-10T13:40:08.757682+05:30 kali systemd-logind[727]: Watching system buttons on /dev/input/event3 (Lid Switch)
+2026-01-10T13:40:08.757702+05:30 kali systemd-logind[727]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2026-01-10T13:40:08.757709+05:30 kali systemd-logind[727]: Watching system buttons on /dev/input/event9 (Intel HID events)
+2026-01-10T13:40:08.757716+05:30 kali systemd-logind[727]: Watching system buttons on /dev/input/event10 (Intel HID 5 button array)
+2026-01-10T13:40:08.757723+05:30 kali systemd-logind[727]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+2026-01-10T13:40:08.757743+05:30 kali polkitd[723]: Loading rules from directory /etc/polkit-1/rules.d
+2026-01-10T13:40:08.757750+05:30 kali polkitd[723]: Loading rules from directory /run/polkit-1/rules.d
+2026-01-10T13:40:08.757757+05:30 kali polkitd[723]: Error opening rules directory: Error opening directory “/run/polkit-1/rules.d”: No such file or directory (g-file-error-quark, 4)
+2026-01-10T13:40:08.757764+05:30 kali polkitd[723]: Loading rules from directory /usr/local/share/polkit-1/rules.d
+2026-01-10T13:40:08.757774+05:30 kali polkitd[723]: Error opening rules directory: Error opening directory “/usr/local/share/polkit-1/rules.d”: No such file or directory (g-file-error-quark, 4)
+2026-01-10T13:40:08.757781+05:30 kali polkitd[723]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-01-10T13:40:08.757791+05:30 kali polkitd[723]: Finished loading, compiling and executing 7 rules
+2026-01-10T13:40:08.757817+05:30 kali polkitd[723]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2026-01-10T13:40:11.107296+05:30 kali lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm(uid=109) by (uid=0)
+2026-01-10T13:40:11.162335+05:30 kali systemd-logind[727]: New session 'c1' of user 'lightdm' with class 'greeter' and type 'x11'.
+2026-01-10T13:40:11.187776+05:30 kali (systemd): pam_unix(systemd-user:session): session opened for user lightdm(uid=109) by lightdm(uid=0)
+2026-01-10T13:40:11.188717+05:30 kali systemd-logind[727]: New session '1' of user 'lightdm' with class 'manager-early' and type 'unspecified'.
+2026-01-10T13:40:11.323546+05:30 kali lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm(uid=109) by (uid=0)
+2026-01-10T13:40:22.811870+05:30 kali lightdm: gkr-pam: unable to locate daemon control file
+2026-01-10T13:40:22.811952+05:30 kali lightdm: gkr-pam: stashed password to try later in open session
+2026-01-10T13:40:22.879736+05:30 kali lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+2026-01-10T13:40:22.879914+05:30 kali lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+2026-01-10T13:40:22.883392+05:30 kali systemd-logind[727]: Removed session c1.
+2026-01-10T13:40:22.883754+05:30 kali lightdm: pam_unix(lightdm:session): session opened for user himanshu(uid=1000) by himanshu(uid=0)
+2026-01-10T13:40:22.895516+05:30 kali systemd-logind[727]: New session '2' of user 'himanshu' with class 'user' and type 'x11'.
+2026-01-10T13:40:22.934181+05:30 kali (systemd): pam_unix(systemd-user:session): session opened for user himanshu(uid=1000) by himanshu(uid=0)
+2026-01-10T13:40:22.935010+05:30 kali systemd-logind[727]: New session '3' of user 'himanshu' with class 'manager' and type 'unspecified'.
+2026-01-10T13:40:23.114117+05:30 kali lightdm: gkr-pam: unlocked login keyring
+2026-01-10T13:40:24.111749+05:30 kali polkitd[723]: Registered Authentication Agent for unix-session:2 (system bus name :1.47 [/usr/libexec/polkit-mate-authentication-agent-1], object path /org/mate/PolicyKit1/AuthenticationAgent, locale en_IN)
+2026-01-10T13:40:24.284910+05:30 kali pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by himanshu(uid=1000)
+2026-01-10T13:40:24.285487+05:30 kali pkexec[1483]: himanshu: Executing command [USER=root] [TTY=unknown] [CWD=/home/himanshu] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness-switch 0]
+2026-01-10T13:40:33.079764+05:30 kali systemd-logind[727]: Removed session 1.
+2026-01-10T13:40:33.080280+05:30 kali (sd-pam): pam_unix(systemd-user:session): session closed for user lightdm
+2026-01-10T13:45:01.743454+05:30 kali CRON[4443]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-10T13:45:01.758771+05:30 kali CRON[4443]: pam_unix(cron:session): session closed for user root
+2026-01-10T13:55:01.766595+05:30 kali CRON[10022]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-10T13:55:01.769492+05:30 kali CRON[10022]: pam_unix(cron:session): session closed for user root
+2026-01-10T14:05:01.779512+05:30 kali CRON[15684]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-10T14:05:01.783311+05:30 kali CRON[15684]: pam_unix(cron:session): session closed for user root
+2026-01-10T14:08:55.156460+05:30 kali pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by himanshu(uid=1000)
+2026-01-10T14:08:55.173887+05:30 kali pkexec[17564]: himanshu: Executing command [USER=root] [TTY=unknown] [CWD=/home/himanshu] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 19200]
+2026-01-10T14:12:26.190740+05:30 kali pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by himanshu(uid=1000)
+2026-01-10T14:12:26.192061+05:30 kali pkexec[19270]: himanshu: Executing command [USER=root] [TTY=unknown] [CWD=/home/himanshu] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 32385]
+2026-01-10T14:12:30.151208+05:30 kali unix_chkpwd[19348]: password check failed for user (himanshu)
+2026-01-10T14:12:30.151679+05:30 kali xfce4-screensaver-dialog: pam_unix(xfce4-screensaver:auth): authentication failure; logname=himanshu uid=1000 euid=1000 tty=:0.0 ruser= rhost=  user=himanshu
+2026-01-10T14:12:34.680375+05:30 kali xfce4-screensaver-dialog: gkr-pam: unlocked login keyring
+2026-01-10T14:12:34.681501+05:30 kali xfce4-screensaver-dialog: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+2026-01-10T14:13:53.776248+05:30 kali sudo: himanshu : TTY=pts/0 ; PWD=/boot ; USER=root ; COMMAND=/usr/bin/systemctl restart NetworkManager
+2026-01-10T14:13:53.776520+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by himanshu(uid=1000)
+2026-01-10T14:13:53.891816+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-01-10T14:15:01.793625+05:30 kali CRON[20747]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-10T14:15:01.797449+05:30 kali CRON[20747]: pam_unix(cron:session): session closed for user root
+2026-01-10T14:15:57.061348+05:30 kali sudo: himanshu : TTY=pts/0 ; PWD=/boot ; USER=root ; COMMAND=/usr/bin/apt update
+2026-01-10T14:15:57.079929+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by himanshu(uid=1000)
+2026-01-10T14:16:04.630084+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-01-10T14:16:24.477160+05:30 kali systemd-logind[727]: The system will reboot now!
+2026-01-10T14:16:24.477376+05:30 kali systemd-logind[727]: System is rebooting.
+2026-01-10T14:16:24.485518+05:30 kali ssh-agent[1206]: exiting on signal 15
+2026-01-10T14:16:24.494069+05:30 kali polkitd[723]: Unregistered Authentication Agent for unix-session:2 (system bus name :1.47, object path /org/mate/PolicyKit1/AuthenticationAgent, locale en_IN) (disconnected from bus)
+2026-01-10T14:17:02.723376+05:30 kali systemd-logind[734]: New seat seat0.
+2026-01-10T14:17:02.723387+05:30 kali systemd-logind[734]: Watching system buttons on /dev/input/event2 (Power Button)
+2026-01-10T14:17:02.723393+05:30 kali systemd-logind[734]: Watching system buttons on /dev/input/event3 (Lid Switch)
+2026-01-10T14:17:02.723398+05:30 kali systemd-logind[734]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2026-01-10T14:17:02.723402+05:30 kali polkitd[726]: Loading rules from directory /etc/polkit-1/rules.d
+2026-01-10T14:17:02.723405+05:30 kali polkitd[726]: Loading rules from directory /run/polkit-1/rules.d
+2026-01-10T14:17:02.723411+05:30 kali polkitd[726]: Error opening rules directory: Error opening directory “/run/polkit-1/rules.d”: No such file or directory (g-file-error-quark, 4)
+2026-01-10T14:17:02.723414+05:30 kali polkitd[726]: Loading rules from directory /usr/local/share/polkit-1/rules.d
+2026-01-10T14:17:02.723418+05:30 kali polkitd[726]: Error opening rules directory: Error opening directory “/usr/local/share/polkit-1/rules.d”: No such file or directory (g-file-error-quark, 4)
+2026-01-10T14:17:02.723422+05:30 kali polkitd[726]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-01-10T14:17:02.723482+05:30 kali systemd-logind[734]: Watching system buttons on /dev/input/event9 (Intel HID events)
+2026-01-10T14:17:02.723528+05:30 kali systemd-logind[734]: Watching system buttons on /dev/input/event10 (Intel HID 5 button array)
+2026-01-10T14:17:02.723657+05:30 kali polkitd[726]: Finished loading, compiling and executing 7 rules
+2026-01-10T14:17:02.724259+05:30 kali systemd-logind[734]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+2026-01-10T14:17:02.724444+05:30 kali polkitd[726]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2026-01-10T14:17:04.940829+05:30 kali lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm(uid=109) by (uid=0)
+2026-01-10T14:17:04.994740+05:30 kali systemd-logind[734]: New session 'c1' of user 'lightdm' with class 'greeter' and type 'x11'.
+2026-01-10T14:17:05.023353+05:30 kali (systemd): pam_unix(systemd-user:session): session opened for user lightdm(uid=109) by lightdm(uid=0)
+2026-01-10T14:17:05.024990+05:30 kali systemd-logind[734]: New session '1' of user 'lightdm' with class 'manager-early' and type 'unspecified'.
+2026-01-10T14:17:05.157536+05:30 kali lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm(uid=109) by (uid=0)
+2026-01-10T14:17:17.603733+05:30 kali lightdm: gkr-pam: unable to locate daemon control file
+2026-01-10T14:17:17.604085+05:30 kali lightdm: gkr-pam: stashed password to try later in open session
+2026-01-10T14:17:17.715852+05:30 kali lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+2026-01-10T14:17:17.716106+05:30 kali lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+2026-01-10T14:17:17.724716+05:30 kali systemd-logind[734]: Removed session c1.
+2026-01-10T14:17:17.727709+05:30 kali lightdm: pam_unix(lightdm:session): session opened for user himanshu(uid=1000) by himanshu(uid=0)
+2026-01-10T14:17:17.764647+05:30 kali systemd-logind[734]: New session '2' of user 'himanshu' with class 'user' and type 'x11'.
+2026-01-10T14:17:17.888181+05:30 kali (systemd): pam_unix(systemd-user:session): session opened for user himanshu(uid=1000) by himanshu(uid=0)
+2026-01-10T14:17:17.892425+05:30 kali systemd-logind[734]: New session '3' of user 'himanshu' with class 'manager' and type 'unspecified'.
+2026-01-10T14:17:18.465207+05:30 kali lightdm: gkr-pam: unlocked login keyring
+2026-01-10T14:17:19.570954+05:30 kali polkitd[726]: Registered Authentication Agent for unix-session:2 (system bus name :1.45 [/usr/libexec/polkit-mate-authentication-agent-1], object path /org/mate/PolicyKit1/AuthenticationAgent, locale en_IN)
+2026-01-10T14:17:19.766595+05:30 kali pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by himanshu(uid=1000)
+2026-01-10T14:17:19.767214+05:30 kali pkexec[1467]: himanshu: Executing command [USER=root] [TTY=unknown] [CWD=/home/himanshu] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness-switch 0]
+2026-01-10T14:17:27.871401+05:30 kali systemd-logind[734]: Removed session 1.
+2026-01-10T14:17:27.871920+05:30 kali (sd-pam): pam_unix(systemd-user:session): session closed for user lightdm
+2026-01-10T14:18:58.220177+05:30 kali sudo: himanshu : TTY=pts/0 ; PWD=/home/himanshu ; USER=root ; COMMAND=/usr/bin/nano /etc/apt/sources.list
+2026-01-10T14:18:58.220388+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by himanshu(uid=1000)
+2026-01-10T14:19:43.002898+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-01-10T14:24:43.238044+05:30 kali pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by himanshu(uid=1000)
+2026-01-10T14:24:43.239481+05:30 kali pkexec[5261]: himanshu: Executing command [USER=root] [TTY=unknown] [CWD=/home/himanshu] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 19200]
+2026-01-10T14:25:01.683336+05:30 kali CRON[5417]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-10T14:25:01.696813+05:30 kali CRON[5417]: pam_unix(cron:session): session closed for user root
+2026-01-10T14:35:01.706318+05:30 kali CRON[10267]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-10T14:35:01.724877+05:30 kali CRON[10267]: pam_unix(cron:session): session closed for user root
+2026-01-10T14:45:01.717192+05:30 kali CRON[15086]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-10T14:45:01.734280+05:30 kali CRON[15086]: pam_unix(cron:session): session closed for user root
+2026-01-10T14:48:17.724587+05:30 kali systemd-logind[734]: The system will power off now!
+2026-01-10T14:48:17.724827+05:30 kali systemd-logind[734]: System is powering down.
+2026-01-10T14:48:17.734941+05:30 kali ssh-agent[1200]: exiting on signal 15
+2026-01-10T14:48:22.696482+05:30 kali systemd-logind[736]: New seat seat0.
+2026-01-10T14:48:22.696486+05:30 kali systemd-logind[736]: Watching system buttons on /dev/input/event2 (Power Button)
+2026-01-10T14:48:22.696489+05:30 kali systemd-logind[736]: Watching system buttons on /dev/input/event3 (Lid Switch)
+2026-01-10T14:48:22.696492+05:30 kali systemd-logind[736]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2026-01-10T14:48:22.696499+05:30 kali systemd-logind[736]: Watching system buttons on /dev/input/event9 (Intel HID events)
+2026-01-10T14:48:22.696502+05:30 kali systemd-logind[736]: Watching system buttons on /dev/input/event10 (Intel HID 5 button array)
+2026-01-10T14:48:22.696505+05:30 kali systemd-logind[736]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+2026-01-10T14:48:22.696531+05:30 kali polkitd[733]: Loading rules from directory /etc/polkit-1/rules.d
+2026-01-10T14:48:22.696534+05:30 kali polkitd[733]: Loading rules from directory /run/polkit-1/rules.d
+2026-01-10T14:48:22.696537+05:30 kali polkitd[733]: Error opening rules directory: Error opening directory “/run/polkit-1/rules.d”: No such file or directory (g-file-error-quark, 4)
+2026-01-10T14:48:22.696540+05:30 kali polkitd[733]: Loading rules from directory /usr/local/share/polkit-1/rules.d
+2026-01-10T14:48:22.696544+05:30 kali polkitd[733]: Error opening rules directory: Error opening directory “/usr/local/share/polkit-1/rules.d”: No such file or directory (g-file-error-quark, 4)
+2026-01-10T14:48:22.696548+05:30 kali polkitd[733]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-01-10T14:48:22.696562+05:30 kali polkitd[733]: Finished loading, compiling and executing 7 rules
+2026-01-10T14:48:22.696568+05:30 kali polkitd[733]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2026-01-10T14:48:24.791113+05:30 kali lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm(uid=109) by (uid=0)
+2026-01-10T14:48:24.800474+05:30 kali systemd-logind[736]: New session 'c1' of user 'lightdm' with class 'greeter' and type 'x11'.
+2026-01-10T14:48:24.855210+05:30 kali (systemd): pam_unix(systemd-user:session): session opened for user lightdm(uid=109) by lightdm(uid=0)
+2026-01-10T14:48:24.856612+05:30 kali systemd-logind[736]: New session '1' of user 'lightdm' with class 'manager-early' and type 'unspecified'.
+2026-01-10T14:48:24.997404+05:30 kali lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm(uid=109) by (uid=0)
+2026-01-10T14:48:44.613493+05:30 kali lightdm: gkr-pam: unable to locate daemon control file
+2026-01-10T14:48:44.613596+05:30 kali lightdm: gkr-pam: stashed password to try later in open session
+2026-01-10T14:48:44.688270+05:30 kali lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+2026-01-10T14:48:44.688421+05:30 kali lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+2026-01-10T14:48:44.692751+05:30 kali systemd-logind[736]: Removed session c1.
+2026-01-10T14:48:44.694099+05:30 kali lightdm: pam_unix(lightdm:session): session opened for user himanshu(uid=1000) by himanshu(uid=0)
+2026-01-10T14:48:44.705410+05:30 kali systemd-logind[736]: New session '2' of user 'himanshu' with class 'user' and type 'x11'.
+2026-01-10T14:48:44.740207+05:30 kali (systemd): pam_unix(systemd-user:session): session opened for user himanshu(uid=1000) by himanshu(uid=0)
+2026-01-10T14:48:44.741038+05:30 kali systemd-logind[736]: New session '3' of user 'himanshu' with class 'manager' and type 'unspecified'.
+2026-01-10T14:48:45.106040+05:30 kali lightdm: gkr-pam: unlocked login keyring
+2026-01-10T14:48:49.026075+05:30 kali polkitd[733]: Registered Authentication Agent for unix-session:2 (system bus name :1.47 [/usr/libexec/polkit-mate-authentication-agent-1], object path /org/mate/PolicyKit1/AuthenticationAgent, locale en_IN)
+2026-01-10T14:48:49.266220+05:30 kali pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by himanshu(uid=1000)
+2026-01-10T14:48:49.267930+05:30 kali pkexec[1487]: himanshu: Executing command [USER=root] [TTY=unknown] [CWD=/home/himanshu] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness-switch 0]
+2026-01-10T18:19:55.643916+05:30 kali systemd-logind[736]: Removed session 1.
+2026-01-10T18:19:55.644599+05:30 kali (sd-pam): pam_unix(systemd-user:session): session closed for user lightdm
+2026-01-10T18:20:05.059469+05:30 kali sudo: himanshu : TTY=pts/0 ; PWD=/home/himanshu ; USER=root ; COMMAND=/usr/bin/nano /etc/apt/sources.list
+2026-01-10T18:20:05.059988+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by himanshu(uid=1000)
+2026-01-10T18:20:09.393913+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-01-10T18:23:19.083989+05:30 kali sudo: himanshu : TTY=pts/0 ; PWD=/home/himanshu ; USER=root ; COMMAND=/usr/bin/apt update
+2026-01-10T18:23:19.084322+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by himanshu(uid=1000)
+2026-01-10T18:23:31.755812+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-01-10T18:23:46.123280+05:30 kali sudo: himanshu : TTY=pts/0 ; PWD=/home/himanshu ; USER=root ; COMMAND=/usr/bin/apt full-upgrade -y
+2026-01-10T18:23:46.124002+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by himanshu(uid=1000)
+2026-01-10T18:24:49.467827+05:30 kali polkitd[733]: Reloading rules
+2026-01-10T18:24:49.467935+05:30 kali polkitd[733]: Collecting garbage unconditionally...
+2026-01-10T18:24:49.467990+05:30 kali polkitd[733]: Loading rules from directory /etc/polkit-1/rules.d
+2026-01-10T18:24:49.468036+05:30 kali polkitd[733]: Loading rules from directory /run/polkit-1/rules.d
+2026-01-10T18:24:49.468101+05:30 kali polkitd[733]: Error opening rules directory: Error opening directory “/run/polkit-1/rules.d”: No such file or directory (g-file-error-quark, 4)
+2026-01-10T18:24:49.468148+05:30 kali polkitd[733]: Loading rules from directory /usr/local/share/polkit-1/rules.d
+2026-01-10T18:24:49.468206+05:30 kali polkitd[733]: Error opening rules directory: Error opening directory “/usr/local/share/polkit-1/rules.d”: No such file or directory (g-file-error-quark, 4)
+2026-01-10T18:24:49.468252+05:30 kali polkitd[733]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-01-10T18:24:49.469245+05:30 kali polkitd[733]: Finished loading, compiling and executing 7 rules
+2026-01-10T18:24:49.469307+05:30 kali polkitd[733]: Reloading rules
+2026-01-10T18:24:49.469353+05:30 kali polkitd[733]: Collecting garbage unconditionally...
+2026-01-10T18:24:49.469384+05:30 kali polkitd[733]: Loading rules from directory /etc/polkit-1/rules.d
+2026-01-10T18:24:49.469411+05:30 kali polkitd[733]: Loading rules from directory /run/polkit-1/rules.d
+2026-01-10T18:24:49.469433+05:30 kali polkitd[733]: Error opening rules directory: Error opening directory “/run/polkit-1/rules.d”: No such file or directory (g-file-error-quark, 4)
+2026-01-10T18:24:49.469456+05:30 kali polkitd[733]: Loading rules from directory /usr/local/share/polkit-1/rules.d
+2026-01-10T18:24:49.469473+05:30 kali polkitd[733]: Error opening rules directory: Error opening directory “/usr/local/share/polkit-1/rules.d”: No such file or directory (g-file-error-quark, 4)
+2026-01-10T18:24:49.469508+05:30 kali polkitd[733]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-01-10T18:24:49.470318+05:30 kali polkitd[733]: Finished loading, compiling and executing 7 rules
+2026-01-10T18:25:01.380537+05:30 kali CRON[7901]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-10T18:25:01.384283+05:30 kali CRON[7901]: pam_unix(cron:session): session closed for user root
+2026-01-10T18:25:15.541049+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-01-10T18:26:53.840189+05:30 kali sudo: himanshu : TTY=pts/0 ; PWD=/home/himanshu ; USER=root ; COMMAND=/usr/bin/apt install -y firmware-linux firmware-linux-nonfree firmware-realtek firmware-iwlwifi firmware-atheros
+2026-01-10T18:26:53.840404+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by himanshu(uid=1000)
+2026-01-10T18:26:54.189743+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-01-10T18:27:11.341627+05:30 kali sudo: himanshu : TTY=pts/0 ; PWD=/home/himanshu ; USER=root ; COMMAND=/usr/bin/apt autoremove -y
+2026-01-10T18:27:11.342289+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by himanshu(uid=1000)
+2026-01-10T18:27:12.258072+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-01-10T18:27:25.968632+05:30 kali sudo: himanshu : TTY=pts/0 ; PWD=/home/himanshu ; USER=root ; COMMAND=/usr/bin/apt autoclean -y
+2026-01-10T18:27:25.968889+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by himanshu(uid=1000)
+2026-01-10T18:27:26.114553+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-01-10T18:35:01.390515+05:30 kali CRON[18828]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-10T18:35:01.392782+05:30 kali CRON[18828]: pam_unix(cron:session): session closed for user root
+2026-01-10T18:35:19.881122+05:30 kali sudo: himanshu : TTY=pts/1 ; PWD=/home/himanshu ; USER=root ; COMMAND=/usr/bin/apt install dirb
+2026-01-10T18:35:19.883292+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by himanshu(uid=1000)
+2026-01-10T18:35:23.621383+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-01-10T18:45:01.398166+05:30 kali CRON[24009]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-10T18:45:01.406219+05:30 kali CRON[24009]: pam_unix(cron:session): session closed for user root
+2026-01-10T18:55:01.406013+05:30 kali CRON[29113]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-10T18:55:01.407778+05:30 kali CRON[29113]: pam_unix(cron:session): session closed for user root
+2026-01-10T19:01:17.704397+05:30 kali sudo: himanshu : TTY=pts/1 ; PWD=/home/himanshu ; USER=root ; COMMAND=/usr/bin/apt autoremove -y
+2026-01-10T19:01:17.706584+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by himanshu(uid=1000)
+2026-01-10T19:01:18.015756+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-01-10T19:05:01.417537+05:30 kali CRON[34156]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-10T19:05:01.436022+05:30 kali CRON[34156]: pam_unix(cron:session): session closed for user root
+2026-01-10T19:15:01.428739+05:30 kali CRON[39799]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-10T19:15:01.431536+05:30 kali CRON[39799]: pam_unix(cron:session): session closed for user root
+2026-01-10T19:17:01.438263+05:30 kali CRON[40949]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-10T19:17:01.441846+05:30 kali CRON[40949]: pam_unix(cron:session): session closed for user root
+2026-01-10T19:23:55.603638+05:30 kali pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by himanshu(uid=1000)
+2026-01-10T19:23:55.604070+05:30 kali pkexec[44565]: himanshu: Executing command [USER=root] [TTY=unknown] [CWD=/home/himanshu] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness-switch 1]
+2026-01-10T19:23:55.813415+05:30 kali systemd-logind[736]: The system will power off now!
+2026-01-10T19:23:55.813570+05:30 kali systemd-logind[736]: System is powering down.
+2026-01-10T19:23:55.817178+05:30 kali ssh-agent[1221]: exiting on signal 15
+2026-01-10T19:24:00.792488+05:30 kali systemd-logind[733]: New seat seat0.
+2026-01-10T19:24:00.793195+05:30 kali systemd-logind[733]: Watching system buttons on /dev/input/event2 (Power Button)
+2026-01-10T19:24:00.793333+05:30 kali systemd-logind[733]: Watching system buttons on /dev/input/event3 (Lid Switch)
+2026-01-10T19:24:00.793367+05:30 kali systemd-logind[733]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2026-01-10T19:24:00.796552+05:30 kali systemd-logind[733]: Watching system buttons on /dev/input/event8 (Intel HID events)
+2026-01-10T19:24:00.796620+05:30 kali systemd-logind[733]: Watching system buttons on /dev/input/event9 (Intel HID 5 button array)
+2026-01-10T19:24:00.796987+05:30 kali systemd-logind[733]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+2026-01-10T19:24:02.927375+05:30 kali lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm(uid=109) by (uid=0)
+2026-01-10T19:24:02.945344+05:30 kali systemd-logind[733]: New session 'c1' of user 'lightdm' with class 'greeter' and type 'x11'.
+2026-01-10T19:24:03.009464+05:30 kali (systemd): pam_unix(systemd-user:session): session opened for user lightdm(uid=109) by lightdm(uid=0)
+2026-01-10T19:24:03.010414+05:30 kali systemd-logind[733]: New session '1' of user 'lightdm' with class 'manager-early' and type 'unspecified'.
+2026-01-10T19:24:03.130019+05:30 kali lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm(uid=109) by (uid=0)
+2026-01-10T19:24:10.596283+05:30 kali lightdm: gkr-pam: unable to locate daemon control file
+2026-01-10T19:24:10.596503+05:30 kali lightdm: gkr-pam: stashed password to try later in open session
+2026-01-10T19:24:10.671314+05:30 kali lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+2026-01-10T19:24:10.671501+05:30 kali lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+2026-01-10T19:24:10.676733+05:30 kali systemd-logind[733]: Removed session c1.
+2026-01-10T19:24:10.677777+05:30 kali lightdm: pam_unix(lightdm:session): session opened for user himanshu(uid=1000) by himanshu(uid=0)
+2026-01-10T19:24:10.689049+05:30 kali systemd-logind[733]: New session '2' of user 'himanshu' with class 'user' and type 'x11'.
+2026-01-10T19:24:10.728555+05:30 kali (systemd): pam_unix(systemd-user:session): session opened for user himanshu(uid=1000) by himanshu(uid=0)
+2026-01-10T19:24:10.729331+05:30 kali systemd-logind[733]: New session '3' of user 'himanshu' with class 'manager' and type 'unspecified'.
+2026-01-10T19:24:10.881039+05:30 kali lightdm: gkr-pam: unlocked login keyring
+2026-01-10T19:24:12.020957+05:30 kali pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by himanshu(uid=1000)
+2026-01-10T19:24:12.021506+05:30 kali pkexec[1493]: himanshu: Executing command [USER=root] [TTY=unknown] [CWD=/home/himanshu] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness-switch 0]
+2026-01-10T19:24:21.065551+05:30 kali systemd-logind[733]: Removed session 1.
+2026-01-10T19:24:21.066118+05:30 kali (sd-pam): pam_unix(systemd-user:session): session closed for user lightdm
+2026-01-10T21:15:01.569369+05:30 kali CRON[4768]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-10T21:15:01.581829+05:30 kali CRON[4768]: pam_unix(cron:session): session closed for user root
+2026-01-10T21:17:01.586657+05:30 kali CRON[5734]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-10T21:17:01.607141+05:30 kali CRON[5734]: pam_unix(cron:session): session closed for user root
+2026-01-10T21:25:01.611902+05:30 kali CRON[9605]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-10T21:25:01.614298+05:30 kali CRON[9605]: pam_unix(cron:session): session closed for user root
+2026-01-10T21:35:01.623569+05:30 kali CRON[14437]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-10T21:35:01.640822+05:30 kali CRON[14437]: pam_unix(cron:session): session closed for user root
+2026-01-10T21:45:01.634312+05:30 kali CRON[19247]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-10T21:45:01.652464+05:30 kali CRON[19247]: pam_unix(cron:session): session closed for user root
+2026-01-10T21:47:15.683019+05:30 kali systemd-logind[733]: The system will power off now!
+2026-01-10T21:47:15.683278+05:30 kali systemd-logind[733]: System is powering down.
+2026-01-10T21:47:15.692734+05:30 kali ssh-agent[1219]: exiting on signal 15
+2026-01-10T21:47:20.902089+05:30 kali systemd-logind[734]: New seat seat0.
+2026-01-10T21:47:20.902092+05:30 kali systemd-logind[734]: Watching system buttons on /dev/input/event2 (Power Button)
+2026-01-10T21:47:20.902094+05:30 kali systemd-logind[734]: Watching system buttons on /dev/input/event3 (Lid Switch)
+2026-01-10T21:47:20.902096+05:30 kali systemd-logind[734]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2026-01-10T21:47:20.902101+05:30 kali systemd-logind[734]: Watching system buttons on /dev/input/event9 (Intel HID events)
+2026-01-10T21:47:20.902102+05:30 kali systemd-logind[734]: Watching system buttons on /dev/input/event10 (Intel HID 5 button array)
+2026-01-10T21:47:20.902104+05:30 kali systemd-logind[734]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+2026-01-10T21:47:23.072581+05:30 kali lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm(uid=109) by (uid=0)
+2026-01-10T21:47:23.078864+05:30 kali systemd-logind[734]: New session 'c1' of user 'lightdm' with class 'greeter' and type 'x11'.
+2026-01-10T21:47:23.126341+05:30 kali (systemd): pam_unix(systemd-user:session): session opened for user lightdm(uid=109) by lightdm(uid=0)
+2026-01-10T21:47:23.127054+05:30 kali systemd-logind[734]: New session '1' of user 'lightdm' with class 'manager-early' and type 'unspecified'.
+2026-01-10T21:47:23.226089+05:30 kali lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm(uid=109) by (uid=0)
+2026-01-10T21:47:30.894721+05:30 kali lightdm: gkr-pam: unable to locate daemon control file
+2026-01-10T21:47:30.894792+05:30 kali lightdm: gkr-pam: stashed password to try later in open session
+2026-01-10T21:47:30.963693+05:30 kali lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+2026-01-10T21:47:30.963812+05:30 kali lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+2026-01-10T21:47:30.968593+05:30 kali systemd-logind[734]: Removed session c1.
+2026-01-10T21:47:30.970440+05:30 kali lightdm: pam_unix(lightdm:session): session opened for user himanshu(uid=1000) by himanshu(uid=0)
+2026-01-10T21:47:30.980624+05:30 kali systemd-logind[734]: New session '2' of user 'himanshu' with class 'user' and type 'x11'.
+2026-01-10T21:47:31.007745+05:30 kali (systemd): pam_unix(systemd-user:session): session opened for user himanshu(uid=1000) by himanshu(uid=0)
+2026-01-10T21:47:31.008313+05:30 kali systemd-logind[734]: New session '3' of user 'himanshu' with class 'manager' and type 'unspecified'.
+2026-01-10T21:47:31.154910+05:30 kali lightdm: gkr-pam: unlocked login keyring
+2026-01-10T21:47:31.996056+05:30 kali pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by himanshu(uid=1000)
+2026-01-10T21:47:31.996374+05:30 kali pkexec[1492]: himanshu: Executing command [USER=root] [TTY=unknown] [CWD=/home/himanshu] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness-switch 0]
+2026-01-10T21:47:41.327562+05:30 kali systemd-logind[734]: Removed session 1.
+2026-01-10T21:47:41.328094+05:30 kali (sd-pam): pam_unix(systemd-user:session): session closed for user lightdm
+2026-01-10T22:05:01.051336+05:30 kali CRON[2771]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-10T22:05:01.061989+05:30 kali CRON[2771]: pam_unix(cron:session): session closed for user root
+2026-01-10T22:13:25.611210+05:30 kali xfce4-screensaver-dialog: pam_unix(xfce4-screensaver:auth): conversation failed
+2026-01-10T22:13:25.611598+05:30 kali xfce4-screensaver-dialog: pam_unix(xfce4-screensaver:auth): auth could not identify password for [himanshu]
+2026-01-10T22:15:01.072333+05:30 kali CRON[8113]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-10T22:15:01.076324+05:30 kali CRON[8113]: pam_unix(cron:session): session closed for user root
+2026-01-10T22:17:01.084634+05:30 kali CRON[9090]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-10T22:17:01.100771+05:30 kali CRON[9090]: pam_unix(cron:session): session closed for user root
+2026-01-10T22:25:01.105154+05:30 kali CRON[12982]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-10T22:25:01.121786+05:30 kali CRON[12982]: pam_unix(cron:session): session closed for user root
+2026-01-10T22:34:37.608247+05:30 kali xfce4-screensaver-dialog: pam_unix(xfce4-screensaver:auth): conversation failed
+2026-01-10T22:34:37.608373+05:30 kali xfce4-screensaver-dialog: pam_unix(xfce4-screensaver:auth): auth could not identify password for [himanshu]
+2026-01-10T22:35:01.115740+05:30 kali CRON[17905]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-10T22:35:01.134342+05:30 kali CRON[17905]: pam_unix(cron:session): session closed for user root
+                                                                                                                                                                                                                                                                                                                                2026-01-10T22:41:45.872218+05:30 kali systemd-logind[746]: New seat seat0.
+2026-01-10T22:41:45.876719+05:30 kali systemd-logind[746]: Watching system buttons on /dev/input/event2 (Power Button)
+2026-01-10T22:41:45.876818+05:30 kali systemd-logind[746]: Watching system buttons on /dev/input/event3 (Lid Switch)
+2026-01-10T22:41:45.876840+05:30 kali systemd-logind[746]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2026-01-10T22:41:45.879091+05:30 kali systemd-logind[746]: Watching system buttons on /dev/input/event9 (Intel HID events)
+2026-01-10T22:41:45.879117+05:30 kali systemd-logind[746]: Watching system buttons on /dev/input/event10 (Intel HID 5 button array)
+2026-01-10T22:41:45.879380+05:30 kali systemd-logind[746]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+2026-01-10T22:41:48.143487+05:30 kali lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm(uid=109) by (uid=0)
+2026-01-10T22:41:48.149192+05:30 kali systemd-logind[746]: New session 'c1' of user 'lightdm' with class 'greeter' and type 'x11'.
+2026-01-10T22:41:48.217257+05:30 kali (systemd): pam_unix(systemd-user:session): session opened for user lightdm(uid=109) by lightdm(uid=0)
+2026-01-10T22:41:48.217832+05:30 kali systemd-logind[746]: New session '1' of user 'lightdm' with class 'manager-early' and type 'unspecified'.
+2026-01-10T22:41:48.342688+05:30 kali lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm(uid=109) by (uid=0)
+2026-01-10T22:43:19.390609+05:30 kali unix_chkpwd[1054]: password check failed for user (himanshu)
+2026-01-10T22:43:19.390801+05:30 kali lightdm: pam_unix(lightdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=himanshu
+2026-01-10T22:43:27.270474+05:30 kali lightdm: gkr-pam: unable to locate daemon control file
+2026-01-10T22:43:27.270570+05:30 kali lightdm: gkr-pam: stashed password to try later in open session
+2026-01-10T22:43:27.318816+05:30 kali lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+2026-01-10T22:43:27.319030+05:30 kali lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+2026-01-10T22:43:27.323883+05:30 kali systemd-logind[746]: Removed session c1.
+2026-01-10T22:43:27.326326+05:30 kali lightdm: pam_unix(lightdm:session): session opened for user himanshu(uid=1000) by himanshu(uid=0)
+2026-01-10T22:43:27.344695+05:30 kali systemd-logind[746]: New session '2' of user 'himanshu' with class 'user' and type 'x11'.
+2026-01-10T22:43:27.383051+05:30 kali (systemd): pam_unix(systemd-user:session): session opened for user himanshu(uid=1000) by himanshu(uid=0)
+2026-01-10T22:43:27.383724+05:30 kali systemd-logind[746]: New session '3' of user 'himanshu' with class 'manager' and type 'unspecified'.
+2026-01-10T22:43:27.485214+05:30 kali lightdm: gkr-pam: unlocked login keyring
+2026-01-10T22:43:30.356360+05:30 kali pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by himanshu(uid=1000)
+2026-01-10T22:43:30.356593+05:30 kali pkexec[1516]: himanshu: Executing command [USER=root] [TTY=unknown] [CWD=/home/himanshu] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness-switch 0]
+2026-01-10T22:43:37.626206+05:30 kali systemd-logind[746]: Removed session 1.
+2026-01-10T22:43:37.626741+05:30 kali (sd-pam): pam_unix(systemd-user:session): session closed for user lightdm
+2026-01-10T22:44:03.766969+05:30 kali unix_chkpwd[1978]: password check failed for user (himanshu)
+2026-01-10T22:44:03.767178+05:30 kali sudo: pam_unix(sudo:auth): authentication failure; logname=himanshu uid=1000 euid=0 tty=/dev/pts/0 ruser=himanshu rhost=  user=himanshu
+2026-01-10T22:44:08.691446+05:30 kali sudo: himanshu : TTY=pts/0 ; PWD=/home/himanshu ; USER=root ; COMMAND=/usr/bin/apt update
+2026-01-10T22:44:08.691603+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by himanshu(uid=1000)
+2026-01-10T22:44:09.872839+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-01-10T22:45:01.204923+05:30 kali CRON[2553]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-10T22:45:01.216065+05:30 kali CRON[2553]: pam_unix(cron:session): session closed for user root
+2026-01-10T22:47:24.201009+05:30 kali sudo: himanshu : TTY=pts/1 ; PWD=/home/himanshu ; USER=root ; COMMAND=/usr/bin/apt install apache2 mariadb-server php php-mysqli git -y
+2026-01-10T22:47:24.201198+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by himanshu(uid=1000)
+2026-01-10T22:47:33.355396+05:30 kali groupadd[4114]: group added to /etc/group: name=mysql, GID=122
+2026-01-10T22:47:33.356238+05:30 kali groupadd[4114]: group added to /etc/gshadow: name=mysql
+2026-01-10T22:47:33.356595+05:30 kali groupadd[4114]: new group: name=mysql, GID=122
+2026-01-10T22:47:33.394827+05:30 kali useradd[4123]: new user: name=mysql, UID=116, GID=122, home=/nonexistent, shell=/bin/false, from=none
+2026-01-10T22:47:44.889083+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-01-10T22:48:17.323218+05:30 kali sudo: himanshu : TTY=pts/1 ; PWD=/home/himanshu ; USER=root ; COMMAND=/usr/bin/systemctl start apache2
+2026-01-10T22:48:17.323809+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by himanshu(uid=1000)
+2026-01-10T22:48:17.389481+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-01-10T22:48:25.901749+05:30 kali sudo: himanshu : TTY=pts/1 ; PWD=/home/himanshu ; USER=root ; COMMAND=/usr/bin/systemctl start mariadb
+2026-01-10T22:48:25.901899+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by himanshu(uid=1000)
+2026-01-10T22:48:26.540441+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-01-10T22:48:35.757977+05:30 kali sudo: himanshu : TTY=pts/1 ; PWD=/home/himanshu ; USER=root ; COMMAND=/usr/bin/systemctl enable mariadb
+2026-01-10T22:48:35.758746+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by himanshu(uid=1000)
+2026-01-10T22:48:36.208987+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-01-10T22:48:49.262094+05:30 kali sudo: himanshu : TTY=pts/1 ; PWD=/home/himanshu ; USER=root ; COMMAND=/usr/bin/systemctl enable mariadb
+2026-01-10T22:48:49.262257+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by himanshu(uid=1000)
+2026-01-10T22:48:49.699686+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-01-10T22:48:58.462360+05:30 kali sudo: himanshu : TTY=pts/1 ; PWD=/home/himanshu ; USER=root ; COMMAND=/usr/bin/mysql
+2026-01-10T22:48:58.462505+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by himanshu(uid=1000)
+2026-01-10T22:55:01.226943+05:30 kali CRON[16902]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-10T22:55:01.245512+05:30 kali CRON[16902]: pam_unix(cron:session): session closed for user root
+2026-01-10T22:55:18.406127+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-01-10T22:55:30.063960+05:30 kali sudo: himanshu : TTY=pts/1 ; PWD=/home/himanshu ; USER=root ; COMMAND=/usr/bin/systemctl restart mariadb
+2026-01-10T22:55:30.064723+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by himanshu(uid=1000)
+2026-01-10T22:55:30.726357+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-01-10T22:55:39.931478+05:30 kali sudo: himanshu : TTY=pts/1 ; PWD=/home/himanshu ; USER=root ; COMMAND=/usr/bin/systemctl restart apache2
+2026-01-10T22:55:39.931643+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by himanshu(uid=1000)
+2026-01-10T22:55:40.083127+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-01-10T23:00:57.462424+05:30 kali sudo: himanshu : TTY=pts/1 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/bin/git clone https://github.com/digininja/DVWA.git
+2026-01-10T23:00:57.482256+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by himanshu(uid=1000)
+2026-01-10T23:00:59.822719+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-01-10T23:03:19.428575+05:30 kali sudo: himanshu : TTY=pts/1 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/bin/chown -R www-data:www-data DVWA
+2026-01-10T23:03:19.428817+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by himanshu(uid=1000)
+2026-01-10T23:03:19.430755+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-01-10T23:03:47.601974+05:30 kali sudo: himanshu : TTY=pts/1 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/bin/chmod -R 755 DVWA
+2026-01-10T23:03:47.602693+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by himanshu(uid=1000)
+2026-01-10T23:03:47.608567+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-01-10T23:04:49.261577+05:30 kali sudo: himanshu : TTY=pts/1 ; PWD=/var/www/html/DVWA/config ; USER=root ; COMMAND=/usr/bin/cp config.inc.php.dist config.inc.php
+2026-01-10T23:04:49.262235+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by himanshu(uid=1000)
+2026-01-10T23:04:49.265088+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-01-10T23:05:01.241227+05:30 kali CRON[22172]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-10T23:05:01.245165+05:30 kali CRON[22172]: pam_unix(cron:session): session closed for user root
+2026-01-10T23:05:21.724663+05:30 kali sudo: himanshu : TTY=pts/1 ; PWD=/var/www/html/DVWA/config ; USER=root ; COMMAND=/usr/bin/nano config.inc.php
+2026-01-10T23:05:21.725327+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by himanshu(uid=1000)
+2026-01-10T23:06:34.570133+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-01-10T23:07:59.215773+05:30 kali sudo: himanshu : TTY=pts/1 ; PWD=/var/www/html/DVWA/config ; USER=root ; COMMAND=/usr/bin/systemctl restart apache2
+2026-01-10T23:07:59.216439+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by himanshu(uid=1000)
+2026-01-10T23:07:59.381695+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-01-10T23:09:01.254101+05:30 kali CRON[24731]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-10T23:09:01.256646+05:30 kali CRON[24731]: pam_unix(cron:session): session closed for user root
+2026-01-10T23:10:44.071536+05:30 kali sudo: himanshu : TTY=pts/1 ; PWD=/var/www/html/DVWA/config ; USER=root ; COMMAND=/usr/bin/systemctl status apache2
+2026-01-10T23:10:44.072228+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by himanshu(uid=1000)
+2026-01-10T23:10:44.119287+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-01-10T23:13:04.424184+05:30 kali sudo: himanshu : TTY=pts/1 ; PWD=/var/www/html/DVWA/config ; USER=root ; COMMAND=/usr/bin/ss -tulnp
+2026-01-10T23:13:04.442802+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by himanshu(uid=1000)
+2026-01-10T23:13:04.482200+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-01-10T23:15:01.265773+05:30 kali CRON[27840]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-10T23:15:01.269529+05:30 kali CRON[27840]: pam_unix(cron:session): session closed for user root
+2026-01-10T23:16:32.917931+05:30 kali sudo: himanshu : TTY=pts/1 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/bin/apt install libapache2-mod-php php-cli
+2026-01-10T23:16:32.918560+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by himanshu(uid=1000)
+2026-01-10T23:16:35.314101+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-01-10T23:17:01.277986+05:30 kali CRON[28930]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-10T23:17:01.296657+05:30 kali CRON[28930]: pam_unix(cron:session): session closed for user root
+2026-01-10T23:17:20.891475+05:30 kali sudo: himanshu : TTY=pts/1 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/sbin/a2enmod php.*
+2026-01-10T23:17:20.893987+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by himanshu(uid=1000)
+2026-01-10T23:17:20.911152+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-01-10T23:17:33.521002+05:30 kali sudo: himanshu : TTY=pts/1 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/sbin/a2enmod php*
+2026-01-10T23:17:33.521831+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by himanshu(uid=1000)
+2026-01-10T23:17:33.542764+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-01-10T23:17:51.164215+05:30 kali sudo: himanshu : TTY=pts/1 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/bin/systemctl restart apache2
+2026-01-10T23:17:51.165042+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by himanshu(uid=1000)
+2026-01-10T23:17:51.306724+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-01-10T23:21:01.429652+05:30 kali sudo: himanshu : TTY=pts/1 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/bin/nano info.php
+2026-01-10T23:21:01.429833+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by himanshu(uid=1000)
+2026-01-10T23:21:41.870577+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-01-10T23:23:50.581589+05:30 kali sudo: himanshu : TTY=pts/1 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/chown -R www-data:www-data /var/www/htmlDVWA
+2026-01-10T23:23:50.598212+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by himanshu(uid=1000)
+2026-01-10T23:23:50.598292+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-01-10T23:23:57.961468+05:30 kali sudo: himanshu : TTY=pts/1 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/chown -R www-data:www-data /var/www/html/DVWA
+2026-01-10T23:23:57.961640+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by himanshu(uid=1000)
+2026-01-10T23:23:57.966033+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-01-10T23:24:25.203343+05:30 kali sudo: himanshu : TTY=pts/1 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/chmod -R 755 /var/www/html/DVWA
+2026-01-10T23:24:25.203517+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by himanshu(uid=1000)
+2026-01-10T23:24:25.207214+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-01-10T23:25:01.302041+05:30 kali CRON[33033]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-10T23:25:01.305390+05:30 kali CRON[33033]: pam_unix(cron:session): session closed for user root
+2026-01-10T23:25:41.048172+05:30 kali sudo: himanshu : TTY=pts/1 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/nano /var/www/html/DVWA/config.inc.php
+2026-01-10T23:25:41.048823+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by himanshu(uid=1000)
+2026-01-10T23:25:45.679821+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-01-10T23:33:33.170213+05:30 kali sudo: himanshu : TTY=pts/1 ; PWD=/var/www/html/DVWA/config ; USER=root ; COMMAND=/usr/bin/nano config.inc.php
+2026-01-10T23:33:33.188679+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by himanshu(uid=1000)
+2026-01-10T23:35:01.316012+05:30 kali CRON[38022]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-10T23:35:01.333146+05:30 kali CRON[38022]: pam_unix(cron:session): session closed for user root
+2026-01-10T23:39:01.328601+05:30 kali CRON[39979]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-10T23:39:01.345708+05:30 kali CRON[39979]: pam_unix(cron:session): session closed for user root
+2026-01-10T23:43:38.458729+05:30 kali xfce4-screensaver-dialog: gkr-pam: unlocked login keyring
+2026-01-10T23:43:38.459457+05:30 kali xfce4-screensaver-dialog: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+2026-01-10T23:45:01.340554+05:30 kali CRON[42979]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-10T23:45:01.359001+05:30 kali CRON[42979]: pam_unix(cron:session): session closed for user root
+2026-01-10T23:50:16.823690+05:30 kali xfce4-screensaver-dialog: gkr-pam: unlocked login keyring
+2026-01-10T23:50:16.823852+05:30 kali xfce4-screensaver-dialog: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+2026-01-10T23:50:23.243964+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-01-10T23:51:13.195758+05:30 kali sudo: pam_unix(sudo:auth): conversation failed
+2026-01-10T23:51:13.196162+05:30 kali sudo: pam_unix(sudo:auth): auth could not identify password for [himanshu]
+2026-01-10T23:51:21.490299+05:30 kali sudo: himanshu : TTY=pts/1 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/nano /var/www/html/DVWA/config/config.inc.php
+2026-01-10T23:51:21.490459+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by himanshu(uid=1000)
+2026-01-10T23:52:15.367593+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-01-10T23:52:25.551325+05:30 kali sudo: himanshu : TTY=pts/1 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/systemctl restart apache2
+2026-01-10T23:52:25.551804+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by himanshu(uid=1000)
+2026-01-10T23:52:25.705529+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-01-10T23:52:32.123787+05:30 kali sudo: himanshu : TTY=pts/1 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/systemctl restart mariadb
+2026-01-10T23:52:32.123943+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by himanshu(uid=1000)
+2026-01-10T23:52:33.191345+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-01-10T23:55:01.354985+05:30 kali CRON[48122]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-10T23:55:01.358993+05:30 kali CRON[48122]: pam_unix(cron:session): session closed for user root
+2026-01-10T23:59:01.367750+05:30 kali CRON[50139]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-10T23:59:01.371942+05:30 kali CRON[50139]: pam_unix(cron:session): session closed for user root
+2026-01-11T00:04:59.671801+05:30 kali xfce4-screensaver-dialog: pam_unix(xfce4-screensaver:auth): conversation failed
+2026-01-11T00:04:59.672210+05:30 kali xfce4-screensaver-dialog: pam_unix(xfce4-screensaver:auth): auth could not identify password for [himanshu]
+2026-01-11T00:05:01.378234+05:30 kali CRON[53181]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-11T00:05:01.381634+05:30 kali CRON[53181]: pam_unix(cron:session): session closed for user root
+2026-01-11T00:09:01.387007+05:30 kali CRON[55145]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-11T00:09:01.404152+05:30 kali CRON[55145]: pam_unix(cron:session): session closed for user root
+2026-01-11T00:11:25.678171+05:30 kali xfce4-screensaver-dialog: gkr-pam: unlocked login keyring
+2026-01-11T00:11:25.679638+05:30 kali xfce4-screensaver-dialog: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+2026-01-11T00:15:01.397078+05:30 kali CRON[58277]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-11T00:15:01.415786+05:30 kali CRON[58277]: pam_unix(cron:session): session closed for user root
+2026-01-11T00:17:01.409347+05:30 kali CRON[59433]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-11T00:17:01.413241+05:30 kali CRON[59433]: pam_unix(cron:session): session closed for user root
+2026-01-11T00:25:01.423443+05:30 kali CRON[63604]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-11T00:25:01.441991+05:30 kali CRON[63604]: pam_unix(cron:session): session closed for user root
+2026-01-11T00:35:01.436744+05:30 kali CRON[68858]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-11T00:35:01.440206+05:30 kali CRON[68858]: pam_unix(cron:session): session closed for user root
+2026-01-11T00:39:01.446073+05:30 kali CRON[71135]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-11T00:39:01.447358+05:30 kali CRON[71135]: pam_unix(cron:session): session closed for user root
+2026-01-11T00:45:01.452663+05:30 kali CRON[74158]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-11T00:45:01.454959+05:30 kali CRON[74158]: pam_unix(cron:session): session closed for user root
+2026-01-11T00:54:34.717866+05:30 kali sudo: himanshu : TTY=pts/4 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/mkdir .ssh
+2026-01-11T00:54:34.719914+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by himanshu(uid=1000)
+2026-01-11T00:54:34.719960+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-01-11T00:55:01.464819+05:30 kali CRON[79613]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-11T00:55:01.468419+05:30 kali CRON[79613]: pam_unix(cron:session): session closed for user root
+2026-01-11T00:55:05.084100+05:30 kali sudo: himanshu : TTY=pts/4 ; PWD=/.ssh ; USER=root ; COMMAND=/usr/bin/touch id_ed25519.pub
+2026-01-11T00:55:05.084929+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by himanshu(uid=1000)
+2026-01-11T00:55:05.087301+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-01-11T00:55:58.092507+05:30 kali sudo: himanshu : TTY=pts/4 ; PWD=/.ssh ; USER=root ; COMMAND=/usr/bin/ssh-keygen -t ed25519 -C himanshupandey9378@gmail.com
+2026-01-11T00:55:58.092950+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by himanshu(uid=1000)
+2026-01-11T00:56:10.108325+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-01-11T01:04:47.428314+05:30 kali sudo: himanshu : TTY=pts/4 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/ssh-keygen -t ed25519 -C himanshupandey9378@gmail.com
+2026-01-11T01:04:47.445422+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by himanshu(uid=1000)
+2026-01-11T01:04:55.522139+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-01-11T01:05:01.476809+05:30 kali CRON[84794]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-11T01:05:01.493811+05:30 kali CRON[84794]: pam_unix(cron:session): session closed for user root
+2026-01-11T01:05:36.096781+05:30 kali sudo: himanshu : TTY=pts/4 ; PWD=/.ssh ; USER=root ; COMMAND=/usr/bin/rm id_ed25519.pub
+2026-01-11T01:05:36.097178+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by himanshu(uid=1000)
+2026-01-11T01:05:36.098592+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-01-11T01:05:43.927087+05:30 kali sudo: himanshu : TTY=pts/4 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/ssh-keygen -t ed25519 -C himanshupandey9378@gmail.com
+2026-01-11T01:05:43.927544+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by himanshu(uid=1000)
+2026-01-11T01:05:51.905053+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-01-11T01:06:54.193647+05:30 kali sudo: himanshu : TTY=pts/4 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/ssh-keygen -t ed25519 -C himanshupandey9378@gmail.com
+2026-01-11T01:06:54.194158+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by himanshu(uid=1000)
+2026-01-11T01:07:07.878876+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-01-11T01:07:16.980561+05:30 kali sudo: himanshu : TTY=pts/4 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/ssh-keygen -t ed25519 -C himanshupandey9378@gmail.com
+2026-01-11T01:07:16.980775+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by himanshu(uid=1000)
+2026-01-11T01:07:30.410318+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-01-11T01:09:01.488147+05:30 kali CRON[86866]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-11T01:09:01.490603+05:30 kali CRON[86866]: pam_unix(cron:session): session closed for user root
+2026-01-11T01:13:35.718373+05:30 kali xfce4-screensaver-dialog: gkr-pam: unlocked login keyring
+2026-01-11T01:13:35.719377+05:30 kali xfce4-screensaver-dialog: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+2026-01-11T01:15:01.500396+05:30 kali CRON[90012]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-11T01:15:01.518875+05:30 kali CRON[90012]: pam_unix(cron:session): session closed for user root
+2026-01-11T01:17:01.508256+05:30 kali CRON[91086]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-11T01:17:01.510639+05:30 kali CRON[91086]: pam_unix(cron:session): session closed for user root
+2026-01-11T01:25:01.516941+05:30 kali CRON[95378]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-11T01:25:01.519203+05:30 kali CRON[95378]: pam_unix(cron:session): session closed for user root
+2026-01-11T01:30:01.508380+05:30 kali systemd-logind[746]: The system will power off now!
+2026-01-11T01:30:01.509285+05:30 kali systemd-logind[746]: System is powering down.
+2026-01-11T01:30:01.522732+05:30 kali ssh-agent[1240]: exiting on signal 15
+2026-01-11T01:30:01.526262+05:30 kali lightdm: pam_unix(lightdm:session): session closed for user himanshu
+2026-01-11T01:30:06.552547+05:30 kali systemd-logind[736]: New seat seat0.
+2026-01-11T01:30:06.552550+05:30 kali systemd-logind[736]: Watching system buttons on /dev/input/event2 (Power Button)
+2026-01-11T01:30:06.552552+05:30 kali systemd-logind[736]: Watching system buttons on /dev/input/event3 (Lid Switch)
+2026-01-11T01:30:06.552554+05:30 kali systemd-logind[736]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2026-01-11T01:30:06.552555+05:30 kali systemd-logind[736]: Watching system buttons on /dev/input/event8 (Intel HID events)
+2026-01-11T01:30:06.552558+05:30 kali systemd-logind[736]: Watching system buttons on /dev/input/event10 (Intel HID 5 button array)
+2026-01-11T01:30:06.552560+05:30 kali systemd-logind[736]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+2026-01-11T01:30:08.687869+05:30 kali lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm(uid=109) by (uid=0)
+2026-01-11T01:30:08.700582+05:30 kali systemd-logind[736]: New session 'c1' of user 'lightdm' with class 'greeter' and type 'x11'.
+2026-01-11T01:30:08.749961+05:30 kali (systemd): pam_unix(systemd-user:session): session opened for user lightdm(uid=109) by lightdm(uid=0)
+2026-01-11T01:30:08.750794+05:30 kali systemd-logind[736]: New session '1' of user 'lightdm' with class 'manager-early' and type 'unspecified'.
+2026-01-11T01:30:08.885363+05:30 kali lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm(uid=109) by (uid=0)
+2026-01-11T01:30:15.228770+05:30 kali lightdm: gkr-pam: unable to locate daemon control file
+2026-01-11T01:30:15.228849+05:30 kali lightdm: gkr-pam: stashed password to try later in open session
+2026-01-11T01:30:15.296095+05:30 kali lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+2026-01-11T01:30:15.296172+05:30 kali lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+2026-01-11T01:30:15.299618+05:30 kali systemd-logind[736]: Removed session c1.
+2026-01-11T01:30:15.300596+05:30 kali lightdm: pam_unix(lightdm:session): session opened for user himanshu(uid=1000) by himanshu(uid=0)
+2026-01-11T01:30:15.311293+05:30 kali systemd-logind[736]: New session '2' of user 'himanshu' with class 'user' and type 'x11'.
+2026-01-11T01:30:15.343792+05:30 kali (systemd): pam_unix(systemd-user:session): session opened for user himanshu(uid=1000) by himanshu(uid=0)
+2026-01-11T01:30:15.344548+05:30 kali systemd-logind[736]: New session '3' of user 'himanshu' with class 'manager' and type 'unspecified'.
+2026-01-11T01:30:15.447553+05:30 kali lightdm: gkr-pam: unlocked login keyring
+2026-01-11T01:30:16.267224+05:30 kali pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by himanshu(uid=1000)
+2026-01-11T01:30:16.267468+05:30 kali pkexec[1590]: himanshu: Executing command [USER=root] [TTY=unknown] [CWD=/home/himanshu] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness-switch 0]
+2026-01-11T01:30:25.670572+05:30 kali systemd-logind[736]: Removed session 1.
+2026-01-11T01:30:25.671053+05:30 kali (sd-pam): pam_unix(systemd-user:session): session closed for user lightdm
+2026-01-11T10:55:01.834880+05:30 kali CRON[3109]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-11T10:55:01.844744+05:30 kali CRON[3109]: pam_unix(cron:session): session closed for user root
+2026-01-11T11:05:01.848712+05:30 kali CRON[8746]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-11T11:05:01.865338+05:30 kali CRON[8746]: pam_unix(cron:session): session closed for user root
+2026-01-11T11:09:01.853115+05:30 kali CRON[10897]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-11T11:09:01.854169+05:30 kali CRON[10897]: pam_unix(cron:session): session closed for user root
+2026-01-11T11:11:09.056161+05:30 kali sudo: himanshu : TTY=pts/0 ; PWD=/home/himanshu/Desktop/digital-forensics-incident-investigation-lab ; USER=root ; COMMAND=/usr/bin/mv ../../Downloads/investigation-flow.png /screenshots
+2026-01-11T11:11:09.058228+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by himanshu(uid=1000)
+2026-01-11T11:11:09.058262+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-01-11T11:15:01.857781+05:30 kali CRON[14448]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-11T11:15:01.858978+05:30 kali CRON[14448]: pam_unix(cron:session): session closed for user root
+2026-01-11T11:17:01.861819+05:30 kali CRON[15512]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-11T11:17:01.881006+05:30 kali CRON[15512]: pam_unix(cron:session): session closed for user root
+2026-01-11T11:21:52.131721+05:30 kali sudo: himanshu : TTY=pts/2 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/cat /var/log/auth.log
+2026-01-11T11:21:52.167069+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by himanshu(uid=1000)
+2026-01-11T11:21:52.167119+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-01-11T11:23:12.832208+05:30 kali sudo: himanshu : TTY=pts/2 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/cat /var/log/auth.log
